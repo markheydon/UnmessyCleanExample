@@ -13,12 +13,15 @@ public class MockWeatherForecastRepository : IWeatherForecastRepository
     {
         var startDate = DateOnly.FromDateTime(DateTime.Now);
         var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
-        var forecasts = Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        {
-            Date = startDate.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = summaries[Random.Shared.Next(summaries.Length)]
-        });
+
+        // Create a list of WeatherForecast domain objects using the constructor to enforce invariants.
+        var forecasts = Enumerable.Range(1, 5).Select(index =>
+            new WeatherForecast(
+                date: startDate.AddDays(index),
+                temperatureC: Random.Shared.Next(-20, 55),
+                summary: summaries[Random.Shared.Next(summaries.Length)]
+            )
+        );
 
         // Add a random delay to make it a bit more realistic.
         var delay = Task.Delay(Random.Shared.Next(100, 1000));
