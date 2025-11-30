@@ -14,7 +14,7 @@ The solution is made up of four projects:
 
 3. **Infrastructure** - This project contains implementations of the service interfaces defined in the Application layer. It handles data access, external services, and other infrastructure concerns. It depends on both the Domain and Application projects.
 
-4. **WebAPI** - This project is the entry point of the application. It contains the API controllers and handles HTTP requests. It depends on the Application and Infrastructure projects.
+4. **BlazorWebApp** - This project is the entry point of the application. It contains the Blazor components, API controllers, and handles HTTP requests. It depends on the Application and Infrastructure projects.
 
 ### Notes
 
