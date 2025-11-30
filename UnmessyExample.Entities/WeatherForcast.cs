@@ -38,7 +38,7 @@ public class WeatherForecast
     public WeatherForecast(DateOnly date, int temperatureC, string? summary)
     {
         if (temperatureC < -100 || temperatureC > 100)
-            throw new ArgumentOutOfRangeException(nameof(temperatureC), "TemperatureC must be between -100 and 100.");
+            throw new ArgumentOutOfRangeException(nameof(temperatureC), "TemperatureC must be from -100 to 100 (inclusive).");
 
         Date = date;
         TemperatureC = temperatureC;
