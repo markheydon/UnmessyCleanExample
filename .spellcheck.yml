@@ -13,4 +13,4 @@ matrix:
       - code
       - pre
   sources:
-  - 'README/*.md'
+  - '*.md'
