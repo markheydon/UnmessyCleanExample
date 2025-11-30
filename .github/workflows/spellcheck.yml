@@ -21,7 +21,7 @@ jobs:
 
       - name: Upload Spellcheck Output
         uses: actions/upload-artifact@v4
-        if: '!cancelled()' # Do not upload artifact if job was cancelled
+        if: '!cancelled()' # Only upload artifact if job was not cancelled
         with:
           name: Spellcheck Output
           path: spellcheck-output.txt
