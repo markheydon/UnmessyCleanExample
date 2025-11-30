@@ -13,6 +13,4 @@ matrix:
       - code
       - pre
   sources:
-  - '*.md'
-  exclude:
-  - UNCLE-BOB.md
+  - '**/*.md'
