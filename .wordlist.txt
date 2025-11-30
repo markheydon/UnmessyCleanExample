@@ -1,0 +1,16 @@
+Blazor
+DTO
+DTOs
+Interactors
+Adapters
+Adapter
+UI
+IWeatherForecastService
+MockWeatherForecastRepository
+WeatherForecast
+WeatherForecastDto
+repo
+learnings
+md
+BlazorWebApp
+EF
