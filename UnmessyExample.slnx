@@ -1,7 +1,4 @@
 <Solution>
-  <Folder Name="/.github/">
-    <File Path="copilot-instructions.md" />
-  </Folder>
   <Folder Name="/docs/">
     <File Path="README.md" />
     <File Path="UNCLE-BOB.md" />

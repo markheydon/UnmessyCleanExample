@@ -1,0 +1,10 @@
+version: 0.40.0
+language: en_GB
+dictionaries:
+  - en_GB
+files:
+  - '**/*.md'
+  - '**/*.cs'
+  - '**/*.razor'
+check_comments: true
+check_strings: false
