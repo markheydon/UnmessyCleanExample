@@ -1,9 +1,8 @@
 matrix:
 - name: Markdown
   aspell:
-    lang: en
+    lang: en-GB
     encoding: utf-8
-    dictionary: en-GB
   pipeline:
   - pyspelling.filters.markdown:
   - pyspelling.filters.html:
