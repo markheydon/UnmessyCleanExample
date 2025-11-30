@@ -3,6 +3,7 @@
     <File Path="copilot-instructions.md" />
   </Folder>
   <Folder Name="/docs/">
+    <File Path="README.md" />
     <File Path="UNCLE-BOB.md" />
   </Folder>
   <Project Path="UnmessyExample.BlazorWebApp/UnmessyExample.BlazorWebApp.csproj" />

@@ -3,8 +3,12 @@ using UnmessyExample.Application;
 
 namespace UnmessyExample.Infrastructure;
 
+/// <summary>
+/// Mock version of the weather forecast repository for demonstration purposes.
+/// </summary>
 public class MockWeatherForecastRepository : IWeatherForecastRepository
 {
+    /// <inheritdoc/>
     public async Task<IEnumerable<WeatherForecast>> GetForecastsAsync()
     {
         var startDate = DateOnly.FromDateTime(DateTime.Now);
