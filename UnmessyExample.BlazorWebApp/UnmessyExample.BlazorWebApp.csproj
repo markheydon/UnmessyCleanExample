@@ -1,15 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
+
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+	<TargetFramework>net10.0</TargetFramework>
+	<LangVersion>14</LangVersion>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<Nullable>enable</Nullable>
+	<ImplicitUsings>enable</ImplicitUsings>
     <BlazorDisableThrowNavigationException>true</BlazorDisableThrowNavigationException>
   </PropertyGroup>
 
   <ItemGroup>
-	  <ProjectReference Include="..\UnmessyExample.Infrastructure\UnmessyExample.Infrastructure.csproj" />
 	  <ProjectReference Include="..\UnmessyExample.UseCases\UnmessyExample.Application.csproj" />
+	  <!-- Infrastructure shouldn't technically be dependent, but needed for DI registration. -->
+	  <ProjectReference Include="..\UnmessyExample.Infrastructure\UnmessyExample.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
