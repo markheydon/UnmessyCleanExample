@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path="copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="UNCLE-BOB.md" />
+  </Folder>
+  <Project Path="UnmessyExample.BlazorWebApp/UnmessyExample.BlazorWebApp.csproj" />
+  <Project Path="UnmessyExample.Entities/UnmessyExample.Domain.csproj" />
+  <Project Path="UnmessyExample.Infrastructure/UnmessyExample.Infrastructure.csproj" />
+  <Project Path="UnmessyExample.UseCases/UnmessyExample.Application.csproj" />
+</Solution>
