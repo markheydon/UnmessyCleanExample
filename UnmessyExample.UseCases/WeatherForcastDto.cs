@@ -11,20 +11,20 @@ public class WeatherForecastDto
     /// <summary>
     /// The date of the weather forecast.
     /// </summary>
-    public DateOnly Date { get; set; }
+    public DateOnly Date { get; init; }
 
     /// <summary>
     /// The temperature in Celsius.
     /// </summary>
-    public int TemperatureC { get; set; }
+    public int TemperatureC { get; init; }
 
     /// <summary>
     /// The temperature in Fahrenheit.
     /// </summary>
-    public int TemperatureF { get; set; }
+    public int TemperatureF { get; init; }
 
     /// <summary>
     /// The summary description of the weather.
     /// </summary>
-    public string? Summary { get; set; }
+    public string? Summary { get; init; }
 }
