@@ -4,7 +4,7 @@ using UnmessyExample.Application;
 namespace UnmessyExample.Infrastructure;
 
 /// <summary>
-/// Extension methods for registering application services.
+/// Extension methods for registering infrastructure services.
 /// </summary>
 public static class DependencyInjection
 {
