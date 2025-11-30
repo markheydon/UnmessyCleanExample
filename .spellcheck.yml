@@ -1,10 +1,16 @@
-version: 0.40.0
-language: en_GB
-dictionaries:
-  - en_GB
-files:
+matrix:
+- name: Markdown
+  aspell:
+    lang: en
+  dictionary: en-GB
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
+  sources:
   - '**/*.md'
-  - '**/*.cs'
-  - '**/*.razor'
-check_comments: true
-check_strings: false
+  default_encoding: utf-8
