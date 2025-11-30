@@ -1,6 +1,6 @@
 # A simple example of what a so called 'Clean Architecture' project might look like in .NET
 
-After some considerable time away from development stuff, I needed to try get my skills somewhere near to up to date of current development practices. Despite my best efforts, I couldn't for the life of me find an example of clean architecture _(as described by Uncle Bob Martin)_ that wasn't either totally over the top to understand the concepts described or just plain wrong in it's implementation.
+After some considerable time away from development stuff, I needed to try get my skills somewhere near to up to date of current development practices. Despite my best efforts, I couldn't for the life of me find an example of clean architecture _(as described by Uncle Bob Martin)_ that wasn't either totally over the top to understand the concepts described or just plain wrong in its implementation.
 
 So, as I often do in these situations, I decided to totally ignore everybody else and do it my way. This repo is the results of my learnings. I don't doubt some people will totally disagree with it, but I don't care, it helped me wrap my head around it and maybe it will someone else too.
 
@@ -27,5 +27,5 @@ The solution is made up of four projects:
 ## References
 
 - [The Clean Architecture by Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-- [UNCLE-BOB.md — Clean Architecture Comparison and Analysis](./UNCLE-BOB.md)
+- [UNCLE-BOB.md â€” Clean Architecture Comparison and Analysis](./UNCLE-BOB.md)
 
