@@ -17,6 +17,9 @@ updates:
       - dependency-name: Microsoft.OpenApi
         update-types:
           - version-update:semver-major
+      - dependency-name: "Microsoft.Extensions.*"
+        update-types:
+          - version-update:semver-major
     groups:
       dotnet-test-packages:
         patterns:
